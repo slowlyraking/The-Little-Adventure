@@ -11,7 +11,9 @@ namespace Engine.Viewmodels
 
         public GameSession()
         {
+#pragma warning disable IDE0017 // Simplify object initialization
             CurrentPlayer = new Player();
+#pragma warning restore IDE0017 // Simplify object initialization
             CurrentPlayer.Name = "Will";
             CurrentPlayer.CharacterClass = "Fighter";
             CurrentPlayer.HitPoints = 10;

@@ -21,7 +21,9 @@ namespace WPFUI
     /// </summary>
     public partial class MainWindow : Window
     {
+#pragma warning disable IDE0044 // Add readonly modifier
         private GameSession _gameSession;
+#pragma warning restore IDE0044 // Add readonly modifier
 
         public MainWindow()
         {
