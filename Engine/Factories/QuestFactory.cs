@@ -12,7 +12,7 @@ namespace Engine.Factories
 
         static QuestFactory()
         {
-            //Decalre items needed to complete quest and the items rewarded on completion.
+            //Declare items needed to complete quest and the items rewarded on completion.
             List<ItemQuantity> itemsToComplete = new List<ItemQuantity>();
             List<ItemQuantity> rewardItems = new List<ItemQuantity>();
 
